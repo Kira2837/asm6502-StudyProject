@@ -1,5 +1,6 @@
 
-3
-00000	0200	b	s	0	tmp
-00001	0201	b	s	0	sum_res
-00002	0202	b	s	0	sub_res
+4
+00000	0200	b	h	0	tmp
+00001	0202	b	b	0	sum_res high
+00002	0201	b	b	0	sum_res low
+00003	0203	b	b	0	sub_res
